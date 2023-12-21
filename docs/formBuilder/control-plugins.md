@@ -81,7 +81,7 @@ window.fbControls.push(function (controlClass) {
 
   // register this control for the following types & text subtypes
   controlClass.register('starRating', controlStarRating);
-  return controlRating;
+  return controlStarRating;
 });
 ```
 
